@@ -31,19 +31,21 @@
             btnGenerar = new Button();
             btnCopiar = new Button();
             label1 = new Label();
-            txtPassword = new TextBox();
             chkUppercase = new CheckBox();
             chkLowercase = new CheckBox();
             chkDigits = new CheckBox();
             chkSpecials = new CheckBox();
             numericLength = new NumericUpDown();
             label2 = new Label();
+            txtPass = new Label();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)numericLength).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // btnGenerar
             // 
-            btnGenerar.Location = new Point(67, 241);
+            btnGenerar.Location = new Point(117, 174);
             btnGenerar.Name = "btnGenerar";
             btnGenerar.Size = new Size(270, 36);
             btnGenerar.TabIndex = 0;
@@ -53,9 +55,9 @@
             // 
             // btnCopiar
             // 
-            btnCopiar.Location = new Point(343, 201);
+            btnCopiar.Location = new Point(400, 141);
             btnCopiar.Name = "btnCopiar";
-            btnCopiar.Size = new Size(67, 23);
+            btnCopiar.Size = new Size(52, 27);
             btnCopiar.TabIndex = 1;
             btnCopiar.Text = "Copiar";
             btnCopiar.UseVisualStyleBackColor = true;
@@ -73,20 +75,11 @@
             label1.Text = "Generador de contraseñas";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // txtPassword
-            // 
-            txtPassword.Enabled = false;
-            txtPassword.Location = new Point(67, 202);
-            txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(270, 23);
-            txtPassword.TabIndex = 4;
-            txtPassword.TextAlign = HorizontalAlignment.Center;
-            // 
             // chkUppercase
             // 
             chkUppercase.AutoSize = true;
             chkUppercase.BackColor = Color.Transparent;
-            chkUppercase.Location = new Point(171, 301);
+            chkUppercase.Location = new Point(198, 238);
             chkUppercase.Name = "chkUppercase";
             chkUppercase.Size = new Size(124, 19);
             chkUppercase.TabIndex = 5;
@@ -97,7 +90,7 @@
             // 
             chkLowercase.AutoSize = true;
             chkLowercase.BackColor = Color.Transparent;
-            chkLowercase.Location = new Point(171, 326);
+            chkLowercase.Location = new Point(198, 263);
             chkLowercase.Name = "chkLowercase";
             chkLowercase.Size = new Size(122, 19);
             chkLowercase.TabIndex = 6;
@@ -108,7 +101,7 @@
             // 
             chkDigits.AutoSize = true;
             chkDigits.BackColor = Color.Transparent;
-            chkDigits.Location = new Point(171, 351);
+            chkDigits.Location = new Point(198, 288);
             chkDigits.Name = "chkDigits";
             chkDigits.Size = new Size(109, 19);
             chkDigits.TabIndex = 7;
@@ -119,7 +112,7 @@
             // 
             chkSpecials.AutoSize = true;
             chkSpecials.BackColor = Color.Transparent;
-            chkSpecials.Location = new Point(171, 376);
+            chkSpecials.Location = new Point(198, 313);
             chkSpecials.Name = "chkSpecials";
             chkSpecials.Size = new Size(171, 19);
             chkSpecials.TabIndex = 8;
@@ -129,7 +122,7 @@
             // numericLength
             // 
             numericLength.BorderStyle = BorderStyle.FixedSingle;
-            numericLength.Location = new Point(293, 172);
+            numericLength.Location = new Point(343, 96);
             numericLength.Name = "numericLength";
             numericLength.Size = new Size(44, 23);
             numericLength.TabIndex = 9;
@@ -139,18 +132,41 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Location = new Point(67, 174);
+            label2.Location = new Point(117, 98);
             label2.Name = "label2";
             label2.Size = new Size(121, 15);
             label2.TabIndex = 10;
             label2.Text = "Caracteres requeridos";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // txtPass
+            // 
+            txtPass.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
+            txtPass.AutoSize = true;
+            txtPass.Font = new Font("Tahoma", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtPass.Location = new Point(90, 4);
+            txtPass.Name = "txtPass";
+            txtPass.Size = new Size(93, 18);
+            txtPass.TabIndex = 11;
+            txtPass.Text = "Contraseña";
+            txtPass.TextAlign = ContentAlignment.MiddleCenter;
+            txtPass.Visible = false;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ButtonHighlight;
+            panel1.Controls.Add(txtPass);
+            panel1.Location = new Point(117, 141);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(270, 27);
+            panel1.TabIndex = 12;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(514, 522);
+            Controls.Add(panel1);
             Controls.Add(label1);
             Controls.Add(label2);
             Controls.Add(btnGenerar);
@@ -160,7 +176,6 @@
             Controls.Add(btnCopiar);
             Controls.Add(chkDigits);
             Controls.Add(chkSpecials);
-            Controls.Add(txtPassword);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
@@ -168,6 +183,8 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Generador de contraseñas";
             ((System.ComponentModel.ISupportInitialize)numericLength).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -177,12 +194,13 @@
         private Button btnGenerar;
         private Button btnCopiar;
         private Label label1;
-        private TextBox txtPassword;
         private CheckBox chkUppercase;
         private CheckBox chkLowercase;
         private CheckBox chkDigits;
         private CheckBox chkSpecials;
         private NumericUpDown numericLength;
         private Label label2;
+        private Label txtPass;
+        private Panel panel1;
     }
 }

@@ -24,6 +24,7 @@ namespace GeneradorContraseñas
 
         private void btnGenerar_Click(object sender, EventArgs e)
         {
+            txtPass.Visible = true;
             int length = (int)numericLength.Value;
             bool upper = chkUppercase.Checked;
             bool lower = chkLowercase.Checked;
@@ -33,7 +34,7 @@ namespace GeneradorContraseñas
             try
             {
                 string password = GeneratePassword(length, upper, lower, digits, specials);
-                txtPassword.Text = password;
+                txtPass.Text = password;
             }
             catch (Exception ex)
             {
@@ -43,9 +44,9 @@ namespace GeneradorContraseñas
 
         private void btnCopiar_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtPassword.Text))
+            if (!string.IsNullOrEmpty(txtPass.Text))
             {
-                Clipboard.SetText(txtPassword.Text);
+                Clipboard.SetText(txtPass.Text);
                 MessageBox.Show("Contraseña copiada al portapapeles.", "Copiado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
