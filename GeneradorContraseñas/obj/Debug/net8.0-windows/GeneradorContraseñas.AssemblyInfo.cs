@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GeneradorContraseñas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db1178934841136f874d8230fa9011bb312b8f6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e9ef8d16c627e15f22d04a3e2ebabdfd13bb8e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("GeneradorContraseñas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GeneradorContraseñas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Form1.cs",
+              "RelativeDocumentMoniker": "GeneradorContrase\u00F1as\\Form1.cs",
+              "ToolTip": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Form1.cs",
+              "RelativeToolTip": "GeneradorContrase\u00F1as\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:31:26.122Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -39,19 +52,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T22:32:53.681Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Form1.cs",
-              "RelativeDocumentMoniker": "GeneradorContrase\u00F1as\\Form1.cs",
-              "ToolTip": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Form1.cs",
-              "RelativeToolTip": "GeneradorContrase\u00F1as\\Form1.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAApwBsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T22:31:26.122Z",
-              "EditorCaption": ""
             }
           ]
         }

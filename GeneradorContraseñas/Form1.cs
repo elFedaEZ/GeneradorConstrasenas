@@ -12,21 +12,25 @@ namespace GeneradorContraseñas
         public Form1()
         {
             InitializeComponent();
-            numericLength.Minimum = 6;
-            numericLength.Maximum = 64;
-            numericLength.Value = 12;
+            //numericLength.Minimum = trackBar1.Minimum;
+            //numericLength.Maximum = trackBar1.Maximum;
+            //numericLength.Value = trackBar1.Value;
+
+            txtValorMin.Text = trackBar1.Minimum.ToString();
+            txtValorMax.Text = trackBar1.Maximum.ToString();
 
             chkUppercase.Checked = true;
             chkLowercase.Checked = true;
             chkDigits.Checked = true;
             chkSpecials.Checked = true;
+            txtBar.Text = trackBar1.Value.ToString();
         }
 
         private void btnGenerar_Click(object sender, EventArgs e)
         {
             txtPass.Visible = true;
             btnCopiar.Visible = true;
-            int length = (int)numericLength.Value;
+            int length = (int)trackBar1.Value;
             bool upper = chkUppercase.Checked;
             bool lower = chkLowercase.Checked;
             bool digits = chkDigits.Checked;
@@ -111,6 +115,11 @@ namespace GeneradorContraseñas
 
             Shuffle(password);
             return new string(password.ToArray());
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            txtBar.Text = trackBar1.Value.ToString();
         }
     }
 }
