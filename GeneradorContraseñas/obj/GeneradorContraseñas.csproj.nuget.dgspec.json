@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\albor\\source\\repos\\GeneradorContraseñas\\GeneradorContraseñas\\GeneradorContraseñas.csproj": {}
+    "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContraseñas\\GeneradorContraseñas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\albor\\source\\repos\\GeneradorContraseñas\\GeneradorContraseñas\\GeneradorContraseñas.csproj": {
+    "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContraseñas\\GeneradorContraseñas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\albor\\source\\repos\\GeneradorContraseñas\\GeneradorContraseñas\\GeneradorContraseñas.csproj",
+        "projectUniqueName": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContraseñas\\GeneradorContraseñas.csproj",
         "projectName": "GeneradorContraseñas",
-        "projectPath": "C:\\Users\\albor\\source\\repos\\GeneradorContraseñas\\GeneradorContraseñas\\GeneradorContraseñas.csproj",
+        "projectPath": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContraseñas\\GeneradorContraseñas.csproj",
         "packagesPath": "C:\\Users\\albor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\albor\\source\\repos\\GeneradorContraseñas\\GeneradorContraseñas\\obj\\",
+        "outputPath": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContraseñas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\albor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
