@@ -25,6 +25,7 @@ namespace GeneradorContraseñas
         private void btnGenerar_Click(object sender, EventArgs e)
         {
             txtPass.Visible = true;
+            btnCopiar.Visible = true;
             int length = (int)numericLength.Value;
             bool upper = chkUppercase.Checked;
             bool lower = chkLowercase.Checked;

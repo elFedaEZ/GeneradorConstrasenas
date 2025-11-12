@@ -45,9 +45,10 @@
             // 
             // btnGenerar
             // 
-            btnGenerar.Location = new Point(117, 174);
+            btnGenerar.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnGenerar.Location = new Point(117, 177);
             btnGenerar.Name = "btnGenerar";
-            btnGenerar.Size = new Size(270, 36);
+            btnGenerar.Size = new Size(270, 30);
             btnGenerar.TabIndex = 0;
             btnGenerar.Text = "Generar";
             btnGenerar.UseVisualStyleBackColor = true;
@@ -55,12 +56,16 @@
             // 
             // btnCopiar
             // 
-            btnCopiar.Location = new Point(400, 141);
+            btnCopiar.Cursor = Cursors.Hand;
+            btnCopiar.FlatAppearance.BorderSize = 0;
+            btnCopiar.FlatStyle = FlatStyle.Flat;
+            btnCopiar.Image = Properties.Resources.Copiar1;
+            btnCopiar.Location = new Point(393, 141);
             btnCopiar.Name = "btnCopiar";
-            btnCopiar.Size = new Size(52, 27);
+            btnCopiar.Size = new Size(30, 30);
             btnCopiar.TabIndex = 1;
-            btnCopiar.Text = "Copiar";
             btnCopiar.UseVisualStyleBackColor = true;
+            btnCopiar.Visible = false;
             btnCopiar.Click += btnCopiar_Click;
             // 
             // label1
@@ -79,9 +84,10 @@
             // 
             chkUppercase.AutoSize = true;
             chkUppercase.BackColor = Color.Transparent;
-            chkUppercase.Location = new Point(198, 238);
+            chkUppercase.Font = new Font("Tahoma", 9F);
+            chkUppercase.Location = new Point(190, 222);
             chkUppercase.Name = "chkUppercase";
-            chkUppercase.Size = new Size(124, 19);
+            chkUppercase.Size = new Size(122, 18);
             chkUppercase.TabIndex = 5;
             chkUppercase.Text = "Incluir mayusculas";
             chkUppercase.UseVisualStyleBackColor = false;
@@ -90,9 +96,10 @@
             // 
             chkLowercase.AutoSize = true;
             chkLowercase.BackColor = Color.Transparent;
-            chkLowercase.Location = new Point(198, 263);
+            chkLowercase.Font = new Font("Tahoma", 9F);
+            chkLowercase.Location = new Point(190, 247);
             chkLowercase.Name = "chkLowercase";
-            chkLowercase.Size = new Size(122, 19);
+            chkLowercase.Size = new Size(119, 18);
             chkLowercase.TabIndex = 6;
             chkLowercase.Text = "Incluir minusculas";
             chkLowercase.UseVisualStyleBackColor = false;
@@ -101,9 +108,10 @@
             // 
             chkDigits.AutoSize = true;
             chkDigits.BackColor = Color.Transparent;
-            chkDigits.Location = new Point(198, 288);
+            chkDigits.Font = new Font("Tahoma", 9F);
+            chkDigits.Location = new Point(190, 272);
             chkDigits.Name = "chkDigits";
-            chkDigits.Size = new Size(109, 19);
+            chkDigits.Size = new Size(109, 18);
             chkDigits.TabIndex = 7;
             chkDigits.Text = "Incluir numeros";
             chkDigits.UseVisualStyleBackColor = false;
@@ -112,9 +120,10 @@
             // 
             chkSpecials.AutoSize = true;
             chkSpecials.BackColor = Color.Transparent;
-            chkSpecials.Location = new Point(198, 313);
+            chkSpecials.Font = new Font("Tahoma", 9F);
+            chkSpecials.Location = new Point(190, 297);
             chkSpecials.Name = "chkSpecials";
-            chkSpecials.Size = new Size(171, 19);
+            chkSpecials.Size = new Size(176, 18);
             chkSpecials.TabIndex = 8;
             chkSpecials.Text = "Incluir caracteres especiales";
             chkSpecials.UseVisualStyleBackColor = false;
@@ -132,9 +141,10 @@
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Tahoma", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(117, 98);
             label2.Name = "label2";
-            label2.Size = new Size(121, 15);
+            label2.Size = new Size(125, 14);
             label2.TabIndex = 10;
             label2.Text = "Caracteres requeridos";
             label2.TextAlign = ContentAlignment.MiddleCenter;
@@ -158,7 +168,7 @@
             panel1.Controls.Add(txtPass);
             panel1.Location = new Point(117, 141);
             panel1.Name = "panel1";
-            panel1.Size = new Size(270, 27);
+            panel1.Size = new Size(270, 30);
             panel1.TabIndex = 12;
             // 
             // Form1

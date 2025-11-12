@@ -63,6 +63,26 @@ namespace GeneradorContraseñas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Copiar {
+            get {
+                object obj = ResourceManager.GetObject("Copiar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Copiar1 {
+            get {
+                object obj = ResourceManager.GetObject("Copiar1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Layer {
             get {
                 object obj = ResourceManager.GetObject("Layer", resourceCulture);
