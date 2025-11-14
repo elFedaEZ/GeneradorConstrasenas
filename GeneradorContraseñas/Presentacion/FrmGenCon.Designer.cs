@@ -1,6 +1,6 @@
 ﻿namespace GeneradorContraseñas
 {
-    partial class Form1
+    partial class FrmGenCon
     {
         /// <summary>
         ///  Required designer variable.
@@ -206,11 +206,11 @@
             txtValorMax.TabIndex = 16;
             txtValorMax.Text = "-";
             // 
-            // Form1
+            // FrmGenCon
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(514, 522);
+            ClientSize = new Size(514, 521);
             Controls.Add(txtValorMax);
             Controls.Add(txtValorMin);
             Controls.Add(txtBar);
@@ -227,7 +227,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             MinimizeBox = false;
-            Name = "Form1";
+            Name = "FrmGenCon";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Generador de contraseñas";
             panel1.ResumeLayout(false);

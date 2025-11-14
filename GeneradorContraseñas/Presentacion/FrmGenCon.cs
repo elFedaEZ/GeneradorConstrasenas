@@ -7,9 +7,9 @@ using System.Windows.Forms;
 
 namespace GeneradorContraseñas
 {
-    public partial class Form1 : Form
+    public partial class FrmGenCon : Form
     {
-        public Form1()
+        public FrmGenCon()
         {
             InitializeComponent();
             //numericLength.Minimum = trackBar1.Minimum;

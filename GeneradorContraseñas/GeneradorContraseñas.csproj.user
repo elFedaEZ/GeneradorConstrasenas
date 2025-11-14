@@ -4,7 +4,10 @@
     <_LastSelectedProfileId>C:\Users\albor\source\repos\GeneradorContraseñas\GeneradorContraseñas\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="Forms\Form1.cs">
+    <Compile Update="Presentacion\FrmGenCon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Presentacion\FrmHistorial.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

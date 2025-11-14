@@ -19,7 +19,6 @@ C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\bin\
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\bin\Debug\net8.0-windows\GeneradorContraseñas.runtimeconfig.json
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\bin\Debug\net8.0-windows\GeneradorContraseñas.dll
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\bin\Debug\net8.0-windows\GeneradorContraseñas.pdb
-C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.Form1.resources
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.Properties.Resources.resources
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.csproj.GenerateResource.cache
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.GeneratedMSBuildEditorConfig.editorconfig
@@ -32,3 +31,5 @@ C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.pdb
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.genruntimeconfig.cache
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\ref\GeneradorContraseñas.dll
+C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.FrmGenCon.resources
+C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.Forms.FrmHistorial.resources
