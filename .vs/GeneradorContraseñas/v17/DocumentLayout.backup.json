@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|c:\\users\\albor\\source\\repos\\git\\generadorconstrasenas\\generadorcontrase\u00F1as\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|solutionrelative:generadorcontrase\u00F1as\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|c:\\users\\albor\\source\\repos\\git\\generadorconstrasenas\\generadorcontrase\u00F1as\\presentacion\\popupetiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|solutionrelative:generadorcontrase\u00F1as\\presentacion\\popupetiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|c:\\users\\albor\\source\\repos\\git\\generadorconstrasenas\\generadorcontrase\u00F1as\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|solutionrelative:generadorcontrase\u00F1as\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|c:\\users\\albor\\source\\repos\\git\\generadorconstrasenas\\generadorcontrase\u00F1as\\presentacion\\frmgencon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|solutionrelative:generadorcontrase\u00F1as\\presentacion\\frmgencon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|c:\\users\\albor\\source\\repos\\git\\generadorconstrasenas\\generadorcontrase\u00F1as\\presentacion\\popupetiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|solutionrelative:generadorcontrase\u00F1as\\presentacion\\popupetiqueta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|c:\\users\\albor\\source\\repos\\git\\generadorconstrasenas\\generadorcontrase\u00F1as\\presentacion\\frmgencon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|solutionrelative:generadorcontrase\u00F1as\\presentacion\\frmgencon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|c:\\users\\albor\\source\\repos\\git\\generadorconstrasenas\\generadorcontrase\u00F1as\\presentacion\\frmhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51AD0B39-D26C-4F0F-A2B8-E78B923A92F3}|GeneradorContrase\u00F1as\\GeneradorContrase\u00F1as.csproj|solutionrelative:generadorcontrase\u00F1as\\presentacion\\frmhistorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +42,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Form1.cs",
-              "RelativeDocumentMoniker": "GeneradorContrase\u00F1as\\Form1.cs",
-              "ToolTip": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Form1.cs",
-              "RelativeToolTip": "GeneradorContrase\u00F1as\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PopUpEtiqueta.cs",
+              "DocumentMoniker": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Presentacion\\PopUpEtiqueta.cs",
+              "RelativeDocumentMoniker": "GeneradorContrase\u00F1as\\Presentacion\\PopUpEtiqueta.cs",
+              "ToolTip": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Presentacion\\PopUpEtiqueta.cs*",
+              "RelativeToolTip": "GeneradorContrase\u00F1as\\Presentacion\\PopUpEtiqueta.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwBUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T22:31:26.122Z",
+              "WhenOpened": "2025-11-14T23:14:09.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Form1.cs",
-              "RelativeDocumentMoniker": "GeneradorContrase\u00F1as\\Form1.cs",
-              "ToolTip": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "GeneradorContrase\u00F1as\\Form1.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "FrmGenCon.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Presentacion\\FrmGenCon.cs",
+              "RelativeDocumentMoniker": "GeneradorContrase\u00F1as\\Presentacion\\FrmGenCon.cs",
+              "ToolTip": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Presentacion\\FrmGenCon.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GeneradorContrase\u00F1as\\Presentacion\\FrmGenCon.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T22:32:53.681Z",
+              "WhenOpened": "2025-11-14T22:42:15.671Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PopUpEtiqueta.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Presentacion\\PopUpEtiqueta.cs",
+              "RelativeDocumentMoniker": "GeneradorContrase\u00F1as\\Presentacion\\PopUpEtiqueta.cs",
+              "ToolTip": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Presentacion\\PopUpEtiqueta.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "GeneradorContrase\u00F1as\\Presentacion\\PopUpEtiqueta.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T23:05:22.663Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmHistorial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Presentacion\\FrmHistorial.cs",
+              "RelativeDocumentMoniker": "GeneradorContrase\u00F1as\\Presentacion\\FrmHistorial.cs",
+              "ToolTip": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Presentacion\\FrmHistorial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "GeneradorContrase\u00F1as\\Presentacion\\FrmHistorial.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T22:10:05.773Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmGenCon.cs",
+              "DocumentMoniker": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Presentacion\\FrmGenCon.cs",
+              "RelativeDocumentMoniker": "GeneradorContrase\u00F1as\\Presentacion\\FrmGenCon.cs",
+              "ToolTip": "C:\\Users\\albor\\source\\repos\\GIT\\GeneradorConstrasenas\\GeneradorContrase\u00F1as\\Presentacion\\FrmGenCon.cs",
+              "RelativeToolTip": "GeneradorContrase\u00F1as\\Presentacion\\FrmGenCon.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDcAAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T22:31:26.122Z",
+              "EditorCaption": ""
             }
           ]
         }

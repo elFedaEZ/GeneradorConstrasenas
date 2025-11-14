@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Datos\" />
     <Folder Include="SQL\" />
   </ItemGroup>
 

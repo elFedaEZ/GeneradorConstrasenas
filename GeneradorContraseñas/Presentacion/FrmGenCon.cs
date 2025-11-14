@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
+using GeneradorContraseñas.Presentacion;
 
 namespace GeneradorContraseñas
 {
@@ -52,7 +53,9 @@ namespace GeneradorContraseñas
             if (!string.IsNullOrEmpty(txtPass.Text))
             {
                 Clipboard.SetText(txtPass.Text);
-                MessageBox.Show("Contraseña copiada al portapapeles.", "Copiado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                //MessageBox.Show("Contraseña copiada al portapapeles.", "Copiado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                PopUpEtiqueta puEtiqueta = new PopUpEtiqueta();
+                puEtiqueta.Show();
             }
         }
 
