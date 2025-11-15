@@ -52,9 +52,9 @@ namespace GeneradorContraseñas
         {
             if (!string.IsNullOrEmpty(txtPass.Text))
             {
-                Clipboard.SetText(txtPass.Text);
                 //MessageBox.Show("Contraseña copiada al portapapeles.", "Copiado", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                PopUpEtiqueta puEtiqueta = new PopUpEtiqueta();
+                string enviarPass = txtPass.Text;
+                PopUpEtiqueta puEtiqueta = new PopUpEtiqueta(enviarPass);
                 puEtiqueta.Show();
             }
         }
@@ -66,7 +66,7 @@ namespace GeneradorContraseñas
         private const string UPPER = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         private const string LOWER = "abcdefghijklmnopqrstuvwxyz";
         private const string DIGITS = "0123456789";
-        private const string SPECIALS = "!@#$%^&*()-_=+[]{}|;:,.<>?/";
+        private const string SPECIALS = "!@#$%^&*()-_=+[]{}|;:<>?/";
 
         private static readonly RandomNumberGenerator rng = RandomNumberGenerator.Create();
 
@@ -104,9 +104,6 @@ namespace GeneradorContraseñas
 
             if (pools.Count == 0)
                 throw new ArgumentException("Debe seleccionar al menos un tipo de carácter.");
-
-            if (requiredChars.Count > length)
-                throw new ArgumentException("La longitud es menor que los tipos de caracteres seleccionados.");
 
             string allChars = string.Concat(pools);
             var password = new List<char>(requiredChars);

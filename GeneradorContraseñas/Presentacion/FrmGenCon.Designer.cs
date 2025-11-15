@@ -152,7 +152,6 @@
             txtPass.RightToLeft = RightToLeft.Yes;
             txtPass.Size = new Size(330, 18);
             txtPass.TabIndex = 11;
-            txtPass.Text = "Contraseña";
             txtPass.TextAlign = ContentAlignment.MiddleCenter;
             txtPass.Visible = false;
             // 
@@ -246,11 +245,11 @@
         private CheckBox chkDigits;
         private CheckBox chkSpecials;
         private Label label2;
-        private Label txtPass;
         private Panel panel1;
         private TrackBar trackBar1;
         private Label txtBar;
         private Label txtValorMin;
         private Label txtValorMax;
+        public Label txtPass;
     }
 }
