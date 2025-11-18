@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
+using GeneradorContraseñas.Datos;
 using GeneradorContraseñas.Presentacion;
 
 namespace GeneradorContraseñas
@@ -120,6 +122,24 @@ namespace GeneradorContraseñas
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
             txtBar.Text = trackBar1.Value.ToString();
+        }
+
+        //                Comprobar Conexion DB (cambiar ProbarCon Visible a true)
+        private void ProbarCon_Click(object sender, EventArgs e)
+        {
+            SqlConnection SqlCon = new SqlConnection();
+            SqlCon = Conexion.crearInstancia().CrearConexion();
+
+            try
+            {
+                SqlCon.Open();
+                MessageBox.Show("Conexión establecida correctamente.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al conectar a la base de datos: " + ex.Message);
+
+            }
         }
     }
 }

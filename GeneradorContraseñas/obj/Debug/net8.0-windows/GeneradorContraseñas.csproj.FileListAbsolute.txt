@@ -34,3 +34,12 @@ C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.FrmGenCon.resources
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.Forms.FrmHistorial.resources
 C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.Presentacion.PopUpEtiqueta.resources
+C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\bin\Debug\net8.0-windows\GeneradorContraseñas.dll.config
+C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\GeneradorContraseñas.csproj.AssemblyReference.cache
+C:\Users\albor\source\repos\GIT\GeneradorConstrasenas\GeneradorContraseñas\obj\Debug\net8.0-windows\Generado.F2904F6A.Up2Date

@@ -42,6 +42,7 @@
             txtBar = new Label();
             txtValorMin = new Label();
             txtValorMax = new Label();
+            ProbarCon = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
             SuspendLayout();
@@ -205,11 +206,23 @@
             txtValorMax.TabIndex = 16;
             txtValorMax.Text = "-";
             // 
+            // ProbarCon
+            // 
+            ProbarCon.Location = new Point(427, 486);
+            ProbarCon.Name = "ProbarCon";
+            ProbarCon.Size = new Size(75, 23);
+            ProbarCon.TabIndex = 17;
+            ProbarCon.Text = "ProbarCon";
+            ProbarCon.UseVisualStyleBackColor = true;
+            ProbarCon.Visible = false;
+            ProbarCon.Click += ProbarCon_Click;
+            // 
             // FrmGenCon
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(514, 521);
+            Controls.Add(ProbarCon);
             Controls.Add(txtValorMax);
             Controls.Add(txtValorMin);
             Controls.Add(txtBar);
@@ -251,5 +264,6 @@
         private Label txtValorMin;
         private Label txtValorMax;
         public Label txtPass;
+        private Button ProbarCon;
     }
 }
