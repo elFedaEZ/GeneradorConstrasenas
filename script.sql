@@ -1,0 +1,6 @@
+CREATE DATABASE DBGenCon
+GO
+
+USE DBGenCon
+GO
+
