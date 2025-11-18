@@ -4,3 +4,11 @@ GO
 USE DBGenCon
 GO
 
+CREATE TABLE historial
+(
+	idHistorial INT NOT NULL IDENTITY(1,1),
+	nombre VARCHAR(50),
+	contra VARCHAR(33) NOT NULL,
+	fecha DATE DEFAULT GETDATE()
+)
+GO
